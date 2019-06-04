@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
+import Lyrics from './Components/Lyrics';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
@@ -13,6 +14,7 @@ export class App extends Component {
           <div className="container">
             <Switch>
               <Route exact path="/" component={Home} />
+              <Route exact path="/lyrics/track/:id" component={Lyrics} />
             </Switch>
           </div>
         </React.Fragment>
