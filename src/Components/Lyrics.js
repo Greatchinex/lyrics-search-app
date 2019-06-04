@@ -18,14 +18,14 @@ export class Lyrics extends Component {
     
     componentDidMount() {
         // this.props.match.params.id: Gets the track id from the react router in the url
-        axios.get(`http://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.lyrics.get?track_id=${this.props.match.params.id}&apikey=${process.env.REACT_APP_MM_KEY}`)
+        axios.get(`https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.lyrics.get?track_id=${this.props.match.params.id}&apikey=${process.env.REACT_APP_MM_KEY}`)
             .then(res => {
                 // console.log(res.data);
                 this.setState(() => {
                     return {lyrics: res.data.message.body.lyrics}
                 });
                 // After Getting the lyrics the make another request
-                return axios.get(`http://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.get?track_id=${this.props.match.params.id}&apikey=${process.env.REACT_APP_MM_KEY}`)
+                return axios.get(`https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.get?track_id=${this.props.match.params.id}&apikey=${process.env.REACT_APP_MM_KEY}`)
             })
                 // For the second request
                 .then(res => {
