@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/lyrics-search-app/static/css/main.36497136.chunk.css",
+    "main.js": "/lyrics-search-app/static/js/main.d75ff4bd.chunk.js",
+    "main.js.map": "/lyrics-search-app/static/js/main.d75ff4bd.chunk.js.map",
+    "runtime~main.js": "/lyrics-search-app/static/js/runtime~main.61add989.js",
+    "runtime~main.js.map": "/lyrics-search-app/static/js/runtime~main.61add989.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/lyrics-search-app/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.0f7d3f10.chunk.js": "/lyrics-search-app/static/js/2.0f7d3f10.chunk.js",
+    "static/js/2.0f7d3f10.chunk.js.map": "/lyrics-search-app/static/js/2.0f7d3f10.chunk.js.map",
+    "index.html": "/lyrics-search-app/index.html",
+    "precache-manifest.15a96928fd9d0080d49eeb765eee3655.js": "/lyrics-search-app/precache-manifest.15a96928fd9d0080d49eeb765eee3655.js",
+    "service-worker.js": "/lyrics-search-app/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/lyrics-search-app/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.36497136.chunk.css.map": "/lyrics-search-app/static/css/main.36497136.chunk.css.map"
+  }
+}
